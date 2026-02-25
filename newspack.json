@@ -18,7 +18,7 @@
 	"siteOptions": {
 		"blogname": "Newspack FSE Sandbox",
 		"blogdescription": "A testing ground for the Newspack environment",
-		"activation_redirect_timestamp_free": 9999999
+		"wpseo": "a:1:{s:34:\"activation_redirect_timestamp_free\";i:1772052559}"
 	},
 	"login": true,
 	"steps": [
