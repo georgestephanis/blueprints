@@ -46,10 +46,6 @@
 				"WP_DEBUG": true,
 				"WP_DEBUG_DISPLAY": true
 			}
-		},
-		{
-			"step": "login",
-			"username": "admin"
 		}
 	]
 }
