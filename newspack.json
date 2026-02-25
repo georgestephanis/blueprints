@@ -8,48 +8,27 @@
 	"features": {
 		"networking": true
 	},
+	"plugins": [
+		"https://github.com/Automattic/newspack-plugin/releases/download/v6.32.0/newspack-plugin.zip",
+		"https://github.com/Automattic/newspack-blocks/releases/download/v4.24.0/newspack-blocks.zip",
+		"jetpack",
+		"akismet",
+		"wordpress-seo",
+	],
+	"siteOptions": {
+		"blogname": "Newspack FSE Sandbox",
+		"blogdescription": "A testing ground for the Newspack environment"
+	},
+	"login": true,
 	"steps": [
 		{
 			"step": "resetData"
 		},
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "url",
-				"url": "https://github.com/Automattic/newspack-plugin/releases/download/v6.32.0/newspack-plugin.zip"
-			},
-			"options": {
-				"activate": true
-			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "url",
-				"url": "https://github.com/Automattic/newspack-blocks/releases/download/v4.24.0/newspack-blocks.zip"
-			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "wordpress.org/plugins",
-				"slug": "jetpack"
-			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "wordpress.org/plugins",
-				"slug": "wordpress-seo"
-			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "wordpress.org/plugins",
-				"slug": "akismet"
-			}
-		},
+        {
+            "step": "activatePlugin",
+            "pluginName": "Newspack",
+            "pluginPath": "/wordpress/wp-content/plugins/newspack-plugin"
+        },
 		{
 			"step": "installTheme",
 			"themeData": {
