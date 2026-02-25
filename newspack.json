@@ -13,7 +13,7 @@
 		"https://github.com/Automattic/newspack-blocks/releases/download/v4.24.0/newspack-blocks.zip",
 		"jetpack",
 		"akismet",
-		"wordpress-seo",
+		"wordpress-seo"
 	],
 	"siteOptions": {
 		"blogname": "Newspack FSE Sandbox",
