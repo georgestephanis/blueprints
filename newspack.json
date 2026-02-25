@@ -41,6 +41,13 @@
 				"importStarterContent": true
 			}
 		},
+        {
+            "step": "importWxr",
+            "file": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/georgestephanis/blueprints/refs/heads/main/newspack.xml"
+            }
+        },
 		{
 			"step": "defineWpConfigConsts",
 			"consts": {
