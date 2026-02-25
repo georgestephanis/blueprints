@@ -25,11 +25,15 @@
 		{
 			"step": "installPlugin",
 			"pluginData": {
+				"resource": "url",
+				"url": "https://github.com/Automattic/newspack-blocks/releases/download/v4.24.0/newspack-blocks.zip"
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
 				"resource": "wordpress.org/plugins",
 				"slug": "jetpack"
-			},
-			"options": {
-				"activate": true
 			}
 		},
 		{
@@ -37,9 +41,13 @@
 			"pluginData": {
 				"resource": "wordpress.org/plugins",
 				"slug": "wordpress-seo"
-			},
-			"options": {
-				"activate": true
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "akismet"
 			}
 		},
 		{
